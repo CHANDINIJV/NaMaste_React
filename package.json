@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  
+
+  "name": "namaste-react",
+  "description": "\"# Learning-React-from-scratch\" \r \"# Learning-React-from-scratch\" \r # NaMaste_React",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHANDINIJV/NaMaste_React.git"
+  },
+  "keywords": [],
+  "author": "chandini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CHANDINIJV/NaMaste_React/issues"
+  },
+  "homepage": "https://github.com/CHANDINIJV/NaMaste_React#readme"
+  
+ 
+}
