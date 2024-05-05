@@ -1,14 +1,28 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const Title = () =>(
-    <h1>Hello from react</h1>
-);
-const Heading = ()=>(
+
+const title = (
     <div className="container">
-        <Title />
-         <h2>This is from conatiner</h2>
+         <h1>hello namste</h1>
+        <h2>hello namste</h2>
+        <h3>hello namste</h3>
     </div>
+);
+const Title = () =>(
+    <div className="title">
+        {title}
+        <h1>hello namste</h1>
+        <h2>hello namste</h2>
+        <h3>hello namste</h3>
+    </div>
+);
+const HeaderComponent = () =>(
+    <div className="container1">
+         <h3>This is heading from JSX</h3>
+       {<Title />}
+    </div>
+   
 )
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Heading />);
+root.render(<HeaderComponent />);
