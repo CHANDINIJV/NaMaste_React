@@ -23,8 +23,8 @@
     margin: 15px;
 }
 .res-container{
-    width: 200px;
-    height: 300px;
+    width: 230px;
+    /* height: 300px; */
     padding: 5px;
     margin: 5px;
     border: 1px solid black;
@@ -32,11 +32,46 @@
    
     }
 .res-food{
-    width: 200px;
+    width: 230px;
     border: 1px solid black;
   
 }
 .rescard-container{
     display: flex;
     flex-wrap: wrap;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 15px;
+}
+.nav-items >ul {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nav-items > ul > li {
+    margin: 15px;
+    list-style-type: none;
+
+}
+.res-card{
+    width: 220px;
+    margin: 5px;
+
+    
+}
+.res-card:hover{
+    border: 1px solid black;
+}
+
+.dish-img{
+    width: 210px;
+    margin: 5px;
+
+}
+.res-details{
+    margin: 5px;
+
 }
