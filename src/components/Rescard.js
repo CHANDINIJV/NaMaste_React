@@ -12,7 +12,7 @@ const ResCards = (props) =>{
                     </div>
                     <div className="res-reviews">
                     <h3>{name}</h3>
-                    <h4>{cuisines}</h4>
+                    <h4>{cuisines.join(",")}</h4>
                     <h4>{costForTwo}</h4>
                     <h4>{avgRating} Ratings</h4>
                   
