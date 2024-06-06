@@ -5,10 +5,10 @@ const ResCards = (props) =>{
     const {cloudinaryImageId,name,cuisines,costForTwo,avgRating} = resData?.info;
     
         return (
-            <div className="res-card">
+            <div className="w-60 m-5 border hover:shadow-lg">
               
                     <div className="res-food-img">
-                        <img className="res-food" src={CARD_URL+cloudinaryImageId }/>
+                        <img className="w-25 m-1" src={CARD_URL+cloudinaryImageId }/>
                     </div>
                     <div className="res-reviews">
                     <h3>{name}</h3>
